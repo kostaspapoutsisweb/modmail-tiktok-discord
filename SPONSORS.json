@@ -1,0 +1,29 @@
+[
+    {
+        "embed": {
+            "description": "Η κοινότητά μας για όλους τους Followers μας στο TikTok!",
+            "color": 15114050,
+            "footer": {
+                "icon_url": "https://i.imgur.com/BhEEQJy.png",
+                "text": "Σέβομαι όποιον σέβεται τους πάντες οι υπόλοιποι να πάνε στον αγύριστο!"
+            },
+            "thumbnail": {
+                "url": "https://i.imgur.com/BhEEQJy.png"
+            },
+            "author": {
+                "name": "ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΑΠΟΥΤΣΗΣ",
+                "url": "https://www.tiktok.com/@costaspapoutsis.gate7",
+                "icon_url": "https://i.imgur.com/NH1kCY7.png"
+            },
+            "fields": [
+                {
+                    "name": "ΚΑΝΑΛΙ YouTube",
+                    "value": "[**Εγγραφείτε**](https://www.youtube.com/channel/UCCpJGuyPsXJDoYTtH2PQR9g?sub_confirmation=1)"
+                },
+                {
+                    "name": "TikTok!",
+                    "value": "[**ΔΕΙΤΕ ΕΔΩ**](https://www.tiktok.com/@costaspapoutsis.gate7)"
+                }
+            ]
+        }
+    }

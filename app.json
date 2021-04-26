@@ -1,0 +1,39 @@
+{
+    "name": "Modmail Κωνσταντίνος Παπουτσής TikTok",
+    "description": "Ένα εύκολο στην εγκατάσταση Modmail bot για Discord - DM επικοινωνίας με το STAFF!",
+    "repository": "https://github.com/kostaspapoutsisweb/modmail-tiktok-discord",
+    "env": {
+        "TOKEN": {
+            "description": "Το TOKEN του Discord Bot.",
+            "required": true
+        },
+        "GUILD_ID": {
+            "description": "Το αναγνωριστικό για τον διακομιστή για τον οποίο φιλοξενείτε αυτό το bot.",
+            "required": true
+        },
+        "MODMAIL_GUILD_ID": {
+            "description": "Το αναγνωριστικό του διακομιστή discord όπου πρέπει να δημιουργηθούν τα κανάλια νημάτων (διακομιστής λήψης). Προεπιλογή στο GUILD_ID.",
+            "required": false
+        },
+        "OWNERS": {
+            "description": "Αναγνωριστικά χρήστη διαχωρισμένων με κόμμα ατόμων που επιτρέπεται να χρησιμοποιούν εντολές μόνο για τον κάτοχο. (eval).",
+            "required": true
+        },
+        "CONNECTION_URI": {
+            "description": "Το URI σύνδεσης για τη βάση δεδομένων σας.",
+            "required": true
+        },
+        "DATABASE_TYPE": {
+            "description": "Ο τύπος της βάσης δεδομένων σας. Αυτή τη στιγμή υπάρχει μόνο μια υποστηριζόμενη βάση δεδομένων - MongoDB (προεπιλογή).",
+            "required": false
+        },
+        "LOG_URL": {
+            "description": "Η διεύθυνση URL της εφαρμογής προβολής αρχείων καταγραφής για την προβολή αυτο-φιλοξενούμενων αρχείων καταγραφής.",
+            "required": true
+        },
+        "GITHUB_TOKEN": {
+            "description": "Ένα διακριτικό προσωπικής πρόσβασης github με το πεδίο repo.",
+            "required": false
+        }
+    }
+}
